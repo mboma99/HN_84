@@ -3,7 +3,9 @@ from datetime import datetime, date, timedelta
 import yfinance as yf
 import pandas as pd
 import plotly.graph_objs as go
-import openai
+from langchain.llms import OpenAI
+import os
+from apikey import apikey
 
 START = "1900-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
@@ -68,20 +70,23 @@ else:
         st.write(f'{symbol} Historical Stock Prices:')
         st.write(data)
 
-    user_input = st.text_area('Chat with the Chat Bot', height=75)
+    #chatbot
 
-    openai.api_key = ""
+    os.environ['OPENAI_API_KEY'] = apikey
+    llm = OpenAI(temperature=0.9)
 
-    def chat_with_bot(user_input):
-        if user_input:
-            response = openai.Completion.create(
-                engine="davinci",
-                prompt=user_input,
-                max_tokens=50  
-            )
-            return response.choices[0].text
-        return ""
 
-    bot_response = chat_with_bot(user_input)
-    if bot_response:
-        st.write("Chat Bot:", bot_response) 
+
+
+
+
+    st.write("AI Genies insights")
+
+
+    st.write(llm(f'give brief insight of the {symbol}'))
+
+
+    #prompt = st.text_area('Chat with the Chat Bot', height=75)
+    #if prompt:
+    #    response = llm(prompt)
+    #    st.write(response)
