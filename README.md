@@ -1,5 +1,5 @@
 # HN_84
-Nottingham 2024 hackerthon
+Nottingham 2023 hackerthon
 
 # Bot4Stock
 An app designed to provide financial literacy on stocks through visualising, converting and advising based on Stock Performances.
