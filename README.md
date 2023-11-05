@@ -1,5 +1,6 @@
 # HN_84
 Nottingham 2023 hackerthon
+project demo : https://youtu.be/QE2MULe5E5g
 
 # Bot4Stock
 An app designed to provide financial literacy on stocks through visualising, converting and advising based on Stock Performances.
