@@ -13,12 +13,23 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Bot4Stock')
 
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
+
+st.sidebar.success("Select a mode above.")
+
 st.markdown(
     "Finance advice at your fingertips."
 )
 
 st.markdown(
     "**Disclaimer:** This app is for informational purposes only and should not solely be used for making investment decisions. Always consult with a real qualified financial advisor before making investment choices."
+)
+
+st.markdown(
+    "All prices will be in Dollars!"
 )
 
 stocks = pd.read_csv("nasdaq.csv")
