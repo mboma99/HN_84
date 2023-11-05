@@ -51,4 +51,4 @@ Input your stock to use the provided bot to gain insight and article links about
 ## This project was done as a collaboration for HackNotts84.
 ### Collaborators:
 Harry Nguyen - https://github.com/htqn2005
-James Mboma - https://github.com/mboma9
+James Mboma - https://github.com/mboma99
