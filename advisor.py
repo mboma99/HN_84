@@ -6,6 +6,7 @@ import plotly.graph_objs as go
 from langchain.llms import OpenAI
 import os
 from apikey import apikey
+from SearchWeb import SearchWeb
 
 START = "1900-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
@@ -76,14 +77,22 @@ else:
     llm = OpenAI(temperature=0.9)
 
 
+    searches = SearchWeb()
+    links = []
+    for symbols in selected_stocks:
+        links = searches.getResults(f"Latest {symbols} news")
+        st.header(f"Check out {symbols}'s latest news")
+        for link in links:
+            st.write(link)
 
 
 
 
-    st.write("AI Genies insights")
+
+    #st.write("AI Genies insights")
 
 
-    st.write(llm(f'give brief insight of the {symbol}'))
+   # st.write(llm(f'give brief insight of the {symbol}'))
 
 
     #prompt = st.text_area('Chat with the Chat Bot', height=75)
