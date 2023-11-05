@@ -10,6 +10,9 @@ def load_lottieurl(url: str):
 
 st.title("Bot4Stock")
 
+st.subheader("An app designed to provide financial literacy on stocks")
+st.write("Includes a Advisor, Visualiser and Converter feature")
+
 st.markdown(
     "**Disclaimer:** This app is for informational purposes only and should not solely be used for making investment decisions. Always consult with a real qualified financial advisor before making investment choices."
 )
@@ -30,9 +33,6 @@ st_lottie(
     height=200,  
     width=200,  
 )
-
-st.subheader("An app designed to provide financial literacy on stocks")
-st.write("Includes a Advisor, Visualiser and Converter feature")
 
 st.subheader('So what is Financial Literacy?')
 lottie_man = load_lottieurl("https://lottie.host/9677787a-fa0b-4471-9df1-6da40320a2c3/rr8rgnuwYl.json")
@@ -73,7 +73,7 @@ st.write("""
     Financial literacy is essential for protecting individuals from financial fraud and achieving life goals, such as saving for education or retirement.
     """)
 
-st.subheader('How this app helps you?')
+st.subheader('What are stocks and how can this app help you?')
 
 lottie_money = load_lottieurl("https://lottie.host/3a6c7f0c-945a-4c53-8377-6a149db714b9/NQSPNU97gc.json")
 
@@ -89,7 +89,11 @@ st_lottie(
 )
 
 st.write("""
-    The app offers features like Stock Visualization, Share to Stock Conversion, and Stock Advisor to enhance financial literacy. Stock Visualization provides insights into stock performance, helping users make informed investment decisions. Share to Stock Conversion simplifies the process of converting shares. Stock Advisor offers expert guidance and recommendations. These features empower users 
-    to make smarter financial choices and improve their financial well-being.
+         Stocks represent ownership shares in a company. When you buy a stock, you're essentially buying a piece of that company, and in return, you may receive a share of its profits in the form of dividends or benefit from potential increases in the stock's value over time. Stocks are beneficial to buy because they offer the potential for long-term financial growth, outpacing inflation and traditional savings accounts. They are meaningful to learn about because understanding how stocks work can empower individuals to build wealth, achieve financial goals, and participate in the global economy. By learning about stocks, beginners can make informed investment decisions and take steps toward securing their financial future.
+         """)
+
+st.write("""
+    Stocks may be a little too complicated as a beginner, which is why Bot4Stock can help guide your journey in understanding how stocks fluctuate, complimented with a chat bot which gives you financial advice! The app offers features like Stock Visualization, Share to Stock Conversion, and Stock Advisor to enhance financial literacy. Stock Visualization provides insights into stock performance, helping you make informed investment decisions. Share to Stock Conversion simplifies the process of converting shares. Stock Advisor offers expert guidance and recommendations. These features empower users 
+    to make smarter financial choices and improve your financial well-being.
     """)
 
