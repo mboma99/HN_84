@@ -1,4 +1,5 @@
 streamlit~=1.28.1
+streamlit_chat
 langchain~=0.0.330
 huggingface-hub
 wikipedia
