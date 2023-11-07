@@ -1,0 +1,13 @@
+streamlit
+streamlit_chat
+langchain
+huggingface-hub==0.17.3
+openai==0.28.1
+yfinance==0.2.31
+plotly
+
+pandas
+requests
+
+serpapi
+python-dotenv
