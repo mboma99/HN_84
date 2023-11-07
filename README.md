@@ -27,8 +27,13 @@ Finally, it can provide financial insight about your chosen stock through the us
    ```
    cd HN_84\app
    ```
+3. **update apikey.py file**
+   ```
+   apikey = 'Open API key here '
+   serp_apikey = 'SERP API Key here'
+   ```
 
-4. **Build Docker Image**
+5. **Build Docker Image**
    ```
    docker compose up --build
    ```
