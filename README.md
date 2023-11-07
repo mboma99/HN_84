@@ -27,7 +27,7 @@ Finally, it can provide financial insight about your chosen stock through the us
    ```
    cd HN_84\app
    ```
-3. **update apikey.py file**
+3. **Update [apikey.py] File**
    ```
    apikey = 'Open API key here '
    serp_apikey = 'SERP API Key here'
