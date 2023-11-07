@@ -22,9 +22,11 @@ Finally, it can provide financial insight about your chosen stock through the us
    ```
    git clone https://github.com/mboma99/HN_84.git
 
-2. **CD to HN_84\app**
+2. **Go to app folder in cli**
+   ```
+   CD .\HN_84\app
 
-3. **Build Docker Image**
+4. **Build Docker Image**
    ```
    docker compose up --build
    ```
