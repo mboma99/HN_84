@@ -21,6 +21,7 @@ Finally, it can provide financial insight about your chosen stock through the us
 
    ```
    git clone https://github.com/mboma99/HN_84.git
+   ```
 
 2. **Go to app folder in cli**
    ```
@@ -37,6 +38,7 @@ Finally, it can provide financial insight about your chosen stock through the us
 
    ```
    git clone https://github.com/mboma99/HN_84.git
+   ```
    
 2. **Create a virtual environment (venv):**
 
