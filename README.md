@@ -15,7 +15,20 @@ Secondly, it can provide the estimated share price of a stock, providing the val
 
 Finally, it can provide financial insight about your chosen stock through the use of a Chatbot powered by OpenAI. In addition, through the use of a web scraper using SerpAPI, the program can return relevant articles talking about the stock. This is in the "Advisor" page
 
-## Installation
+## Docker Installation
+
+1. **Clone the repository:**
+
+   ```
+   git clone https://github.com/mboma99/HN_84.git
+
+2. **CD to HN_84\app**
+
+3. **Build Docker Image**
+   ```
+   docker compose up --build
+   ```
+## Manual Installation
 
 1. **Clone the repository:**
 
