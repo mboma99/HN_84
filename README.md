@@ -25,6 +25,7 @@ Finally, it can provide financial insight about your chosen stock through the us
 2. **Go to app folder in cli**
    ```
    CD .\HN_84\app
+   ```
 
 4. **Build Docker Image**
    ```
