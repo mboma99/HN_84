@@ -71,8 +71,3 @@ for i, msg in enumerate (messages[1:]):
         message(msg.content, is_user=False, key=str(i)+'_ai')
 
 
-
-    #prompt = st.text_area('Chat with the Chat Bot', height=75)
-    #if prompt:
-    #    response = llm(prompt)
-    #    st.write(response)
